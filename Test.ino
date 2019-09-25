@@ -22,7 +22,7 @@ void loop()
   digitalWrite (gre_led, LOW); 
   delay(1000);}
   
-  else{
+
   digitalWrite(red_led, HIGH);
   digitalWrite(yel_led, LOW);
   digitalWrite (gre_led, LOW); 
@@ -34,5 +34,5 @@ void loop()
   digitalWrite(red_led, LOW);
   digitalWrite(yel_led, LOW);
   digitalWrite(gre_led, HIGH);
-  delay(1000);}
+  delay(1000);
 }
