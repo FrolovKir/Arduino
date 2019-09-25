@@ -20,8 +20,10 @@ void loop()
    if(digitalRead(keyPin) == HIGH) {
    digitalWrite(ledPin1, HIGH);
    delay(1000);
+   digitalWrite(ledPin1, LOW);
    digitalWrite(ledPin2, HIGH);
-   delay(1000);}
+   delay(1000);
+   digitalWrite(ledPin2, LOW);}
   
   digitalWrite(red_led, HIGH);
   digitalWrite(yel_led, LOW);
